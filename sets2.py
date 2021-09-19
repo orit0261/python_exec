@@ -1,0 +1,6 @@
+na = input()
+set_a = set(map(int,input().split()))
+nb = input()
+set_b = set(map(int,input().split()))
+set_a = set_a.symmetric_difference(set_b)
+print(len(set_a))
